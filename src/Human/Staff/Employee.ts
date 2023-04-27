@@ -1,11 +1,8 @@
 import { Person } from "./Person";
+export class Employee extends Person{
+    private position: string;
+    constructor(firstName: string, lastName: string, dateOfBirth: string, gender: string, phoneNumber:number, position: string) {
+        super(firstName, lastName, dateOfBirth, gender, phoneNumber)
+        this.position;
 
-class Employee extends Person{
-    position: string;
-    salary: number;
-    constructor(firstName: string, lastName: string, phonenumber: number, age: number, gender: string, position: string, salary: number){
-        super(firstName, lastName, phonenumber, age, gender);
-        this.position = position;
-        this.salary = salary;
-    }
-}
+}}

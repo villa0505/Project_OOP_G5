@@ -1,14 +1,15 @@
 export abstract class Person{
-    firstName: string;
-    lastName: string;
-    phonenumber: number;
-    age: number;
-    gender: string;
-    constructor(firstName: string, lastName: string, phonenumber: number, age: number, gender: string){
+    private firstName: string;
+    private lastName: string;
+    private dateOfBirth: string;
+    public gender: string;
+    private phoneNumber :number;
+
+    constructor(firstName: string, lastName: string, dateOfBirth: string, gender: string, phoneNumber:number) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.phonenumber = phonenumber;
-        this.age = age;
+        this.dateOfBirth = dateOfBirth;
         this.gender = gender;
-    }
-}
+        this.phoneNumber
+
+}}
