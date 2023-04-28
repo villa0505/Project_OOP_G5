@@ -21,3 +21,4 @@ export class Booking{
         return this.bags
     }
 }
+
