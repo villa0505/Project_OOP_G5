@@ -1,12 +1,13 @@
 export class Flight{
-    private startDate: string;
-    private endDate: string;
     private flightNumber: number;
-    public gate: string;
-    constructor(startDate: string, endDate: string, flightNumber: number, gate: string){
-        this.startDate = startDate;
-        this.endDate = endDate;
+    private departureTime: string;
+    private arrivalTime: string;
+    private gate: string;
+
+    constructor(flightNumber: number, departureTime: string, arrivalTime: string, gate: string){
         this.flightNumber = flightNumber;
+        this.departureTime = departureTime;
+        this.arrivalTime = arrivalTime;
         this.gate = gate;
     }
 }
