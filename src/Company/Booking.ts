@@ -1,6 +1,5 @@
 export class Booking{
-    price: number;
-    constructor(price: number){
+    constructor(private price: number){
         this.price = price;
     }
 }

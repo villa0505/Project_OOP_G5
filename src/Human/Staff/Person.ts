@@ -4,7 +4,6 @@ export abstract class Person{
     private dateOfBirth: string;
     public gender: string;
     private phoneNumber :number;
-
     constructor(firstName: string, lastName: string, dateOfBirth: string, gender: string, phoneNumber:number) {
         this.firstName = firstName;
         this.lastName = lastName;
