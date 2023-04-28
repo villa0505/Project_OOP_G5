@@ -1,12 +1,16 @@
 export class Flight{
-    date: string;
-    time: string;
     flightNumber: number;
+    departureTime: string;
+    arrivalTime: string;
     gate: string;
-    constructor(date: string, time: string, flightNumber: number, gate: string){
-        this.date = date;
-        this.time = time;
+
+    constructor(flightNumber: number, departureTime: string, arrivalTime: string, gate: string){
         this.flightNumber = flightNumber;
+        this.departureTime = departureTime;
+        this.arrivalTime = arrivalTime;
         this.gate = gate;
     }
 }
+
+
+

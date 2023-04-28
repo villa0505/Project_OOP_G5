@@ -1,4 +1,4 @@
-class Bage{
+export class Bage{
     private color: string;
     private size: number;
     private leble:string;
