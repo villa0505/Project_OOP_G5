@@ -1,5 +1,5 @@
 export class Booking{
-    constructor(private price: number){
-        this.price = price;
+    constructor(private referenceNumber: string ){
+        this.referenceNumber = referenceNumber;
     }
 }
