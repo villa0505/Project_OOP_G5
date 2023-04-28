@@ -1,8 +1,8 @@
 export class Flight{
-    flightNumber: number;
-    departureTime: string;
-    arrivalTime: string;
-    gate: string;
+    private flightNumber: number;
+    private departureTime: string;
+    private arrivalTime: string;
+    private gate: string;
 
     constructor(flightNumber: number, departureTime: string, arrivalTime: string, gate: string){
         this.flightNumber = flightNumber;

@@ -1,5 +1,5 @@
 export class Aeroplanes{
-    registration: string;
+    public registration: string;
     constructor(registration: string){
         this.registration = registration;
     }
